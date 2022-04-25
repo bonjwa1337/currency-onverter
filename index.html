@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"></div>
+        <ul class="menu">
+            <li><a href="#" class="menu-list active">БАНК</a></li>
+            <li><a href="#" class="menu-list">БИЗНЕС</a></li>
+            <li><a href="#" class="menu-list">ИНВЕСТИЦИИ</a></li>
+            <li><a href="#" class="menu-list">СТРАХОВАНИЕ</a></li>
+            <li><a href="#" class="menu-list">МОБАЙЛ</a></li>
+            <li><a href="#" class="menu-list">ПУТЕШЕСТВИЯ</a></li>
+            <li><a href="#" class="menu-list">РАЗВЛЕЧЕНИЯ</a></li>
+        </ul>
+        <button class="menu-button">ВОЙТИ</button>
+    </header>
+    <section class="wrapper">
+        <h1 class="title">Конвертер валют онлайн</h1>
+        <div class="converter-wrapper">
+            <div class="converter left-converter">
+                <div class="gray-text">У меня есть</div>
+                <div class="currency-wrapper ">
+                    <div class="currency-button">RUB</div>
+                    <div class="currency-button">USD</div>
+                    <div class="currency-button">EUR</div>
+                    <div class="currency-button">GBP</div>
+                </div>
+                <div class="value-wrapper">
+                    <input type="number" name="number-left" class="digits">
+                    <span class="gray-text currency-text">1 RUB = 0.0135 USD</span>
+                </div>
+            </div>
+
+            <div class="converter right-converter">
+                <div class="gray-text">Хочу приобрести</div>
+                <div class="currency-wrapper right-currency">
+                    <div class="currency-button">RUB</div>
+                    <div class="currency-button">USD</div>
+                    <div class="currency-button">EUR</div>
+                    <div class="currency-button">GBP</div>
+                </div>
+                <div class="value-wrapper">
+                    <input type="number" name="number-right" class="digits">
+                    <span class="gray-text currency-text">1 RUB = 0.0135 USD</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

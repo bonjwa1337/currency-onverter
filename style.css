@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;900&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #F5F5F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 100px;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.logo {
+    background-image: url('./img/logo.png');
+    width: 89px;
+    height: 23px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-list {
+    color: #959BA4;
+    font-size: 11px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 22px;
+}
+
+.menu-list:hover {
+    color: #000000;
+}
+
+.active {
+    color: #000000;
+}
+
+.menu-button {
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper {
+    margin: 0 253px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.converter-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 123px;
+}
+
+.converter {
+    max-width: 260px;
+}
+
+.gray-text {
+    color: #9F9F9F;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.currency-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.currency-button {
+    color: #C6C6C6;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: 1px solid #c6c6c698;
+    border-left: none;
+    cursor: pointer;
+}
+
+.selected {
+    background: #833AE0;
+    color: rgb(255, 255, 255);
+}
+
+.currency-button:first-child {
+    border-left: 1px solid #c6c6c698;
+    border-radius: 5px 0 0 5px;
+}
+
+.currency-button:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.value-wrapper {
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    padding: 11px 16px;
+}
+
+.digits {
+    width: 100%;
+    border: none;
+    font-size: 36px;
+    outline: none;
+}
